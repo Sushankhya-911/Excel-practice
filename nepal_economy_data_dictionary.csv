@@ -1,0 +1,14 @@
+Column_Name,Data_Type,Description,Source_Authority
+Row_ID,Integer,Unique incremental identifier for each recording row.,System Generated
+Fiscal_Year_BS,Text / String,Fiscal Year designation based on the Bikram Sambat (BS) calendar system used officially in Nepal.,Nepal Rastra Bank (NRB)
+Year_AD,Integer,Corresponding calendar year in Anno Domini (AD).,Nepal Rastra Bank (NRB)
+Quarter,Text / String,"Tracks temporal slices (Q1, Q2, Q3, Q4, or Full_Year aggregates).",National Statistics Office (NSO)
+GDP_Real_Growth_Pct,Percentage / Float,Annual real Gross Domestic Product growth rate adjusted for price inflation.,National Statistics Office (NSO)
+Agri_Sector_Growth_Pct,Percentage / Float,"Growth performance index of the primary agricultural sector (crops, livestock, forestry, fisheries).",National Statistics Office (NSO)
+Non_Agri_Sector_Growth_Pct,Percentage / Float,"Growth performance index of manufacturing, construction, energy, and services.",National Statistics Office (NSO)
+CPI_Inflation_Avg_Pct,Percentage / Float,Consumer Price Index (CPI) annual average inflation reflecting domestic price levels.,Nepal Rastra Bank (NRB)
+Remittance_Inflow_NPR_Billions,Decimal / Float,"Total inbound funds sent by migrant workers overseas to families in Nepal, expressed in Billions of Nepalese Rupees.",Nepal Rastra Bank (NRB)
+Total_Imports_NPR_Billions,Decimal / Float,"Total expenditure on foreign commodity shipments brought into the country (CIF value, Billions NPR).",Department of Customs / NRB
+Total_Exports_NPR_Billions,Decimal / Float,"Total commercial revenue received from domestic products shipped abroad (FOB value, Billions NPR).",Department of Customs / NRB
+FX_Reserves_USD_Billions,Decimal / Float,"Gross foreign exchange assets held by Nepal Rastra Bank, denominated in Billions of United States Dollars.",Nepal Rastra Bank (NRB)
+Import_Cover_Months,Decimal / Float,Macroeconomic buffer metric calculating how many months of current import levels the existing FX reserves can cover.,Derived Metric / NRB Calculations
